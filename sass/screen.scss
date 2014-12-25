@@ -1,0 +1,152 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/css3";
+
+a {
+	cursor: pointer;
+}
+
+body, ul.navigation, ul.navigation li, ul.navigation ul, a{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-decoration: none;
+}
+ul.navigation,ul.navigation li {
+    list-style: none;
+}
+ul.navigation li {
+    position: relative;
+    width: 150px;
+}
+/* 選單 li 裡面連結之樣式 */
+ul.navigation li a{
+    display: block;
+    padding: 12px 20px;
+    background: #aaa;
+    color: #fff;
+}
+/* 特定在第一層，以左邊灰線分隔 */
+ul.navigation > li > a{
+    border-bottom: 1px solid #CCC;    
+    border-left: 1px solid #CCC;
+}
+ul.navigation > li > a:hover{
+    color:#06f;
+    background:#CCEEFF;
+}
+
+/* 特定在第一層 > 第二層之後下拉部分之樣式 */
+ul.navigation li ul{
+    display: none;
+    float: left;
+    position: absolute;
+    left: 0;    
+    margin: 0;
+}
+/* 當第一層選單被觸發時，指定第二層顯示 */
+ul.navigation li:hover > ul{
+    display: block;
+}
+/* 特定在第二層或之後下拉部分 li 之樣式 */
+ul.navigation ul li {
+    border-bottom: 1px solid #DDD;
+}
+/* 特定在第二層或之後下拉部分 li （最後一項不要底線）之樣式 */
+ul.navigation ul li:last-child {
+    border-bottom: none;
+}
+/* 第二層或之後 選單 li 之樣式 */
+ul.navigation ul a {
+    width: 120px;
+    padding: 10px 12px;    
+    color: #666;        
+    background: #EEE;
+}
+ul.navigation ul a:hover {        
+    background: #CCC;    
+}
+/* 第三層之後，上一層的選單觸發則顯示出來（皆為橫向拓展） */
+ul.navigation ul li:hover > ul{
+    display: block;
+    position: absolute;
+    top: 0;    
+    left: 100%;
+
+}
+/* 箭頭向下 */
+.arrow-bottom {
+    display: inline-block;
+    margin-left: 5px;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;    
+    border-left: 4px solid transparent;        
+    width: 1px;
+    height: 1px;
+}
+/* 箭頭向右 */
+.arrow-right {
+    display: inline-block;
+    margin-left: 12px;    
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid #666;        
+    width: 1px;
+    height: 1px;
+}
+.play {position: relative; right: -30px
+}
+.play2 {position: relative; bottom: -30px
+}
+html {
+    background-image:url(http://cdn.wallxd.com/519a2db975a4167668.jpg)
+}
+
+#main {
+  margin-top:50px;
+  display:block;
+}
+
+#ctrl-port {
+  display:inline-block;
+  width:25%;
+}
+
+#view-port {
+  vertical-align:top;
+  display:inline-block;
+  width:70%;
+}
+
+#ctrl-port > ol > li{
+  cursor: pointer;
+  
+}
+
+#ctrl-port > ol > li:hover {
+  background-color: lightblue;
+}
+
+sub {
+  font-size:6px;
+}
+
+
+#view-port .crop {
+  width: 1024px;
+  height: 768px;
+  overflow:hidden;
+  margin:0px auto;
+
+}
+
+#view-port img {
+  margin-top:-0px;
+  width: 80%;
+  max-width:1800px; 
+  height:60%; 
+  max-height:1800px; 
+}
