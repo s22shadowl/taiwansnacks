@@ -44,25 +44,32 @@ function myCtrl($scope,$translate) {
      img:'http://ext.pimg.tw/moongenie/4a4ef8009fc44.jpg',imgSrc: 'http://www.techbang.com/posts/11680-guan-yus-second-element-style-grand-parody-of-serious-ladies-should-have'},
      
     {id:2, 'zh-TW':'地瓜葉',
+     tags: '正餐',
      en:'Sweet potato leaves',
      ja:'キャベツ',
      Tells:'瓜葉、甘藷葉，是旋花科番薯屬植物番薯的葉，可作為蔬菜食用。亦有農民只摘取嫩葉部分炒熟吃，或加入蒜末，再加一些食鹽食用。番薯葉營養豐富，蛋白質、胡蘿蔔素、鈣、磷、鐵、維生素C等含量均比菠菜、韭菜等常見蔬菜來得高，有助抗氧化，因而也成為現代人心目中的健康蔬菜。',
      img:'http://tweb.ssps.tp.edu.tw/organization/aao/vegetable/Images/%E5%9C%B0%E7%93%9C%E8%91%89.jpg',imgSrc:'http://news.ifeng.com/history/zhongguogudaishi/detail_2012_01/13/11953125_0.shtml?_from_ralated'},
      
     {id:3, 'zh-TW':'地瓜',
+     tags: '正餐+早餐',
      en:'Sweet potato',
      ja:'キャベツ',
      Tells:'番薯基本上加熱即可食用，也可曬製成乾；種植在山丘、高原等土地偏乾燥地區的番薯會因為乾燥原因沉澱澱粉而很甜。地瓜皮含豐富的黏液蛋白等多醣類物質，能降低血液中的膽固醇、保持血管彈性，預防血管硬化及高血壓等心血管疾病。',
      img:'http://9.blog.xuite.net/9/1/c/f/14511915/blog_1223544/txt/26443502/21.jpg',imgSrc:'http://dreamyeh.pixnet.net/blog/post/24755460-%E8%AB%96%E7%9C%9F%E5%AF%A6%E6%AD%B7%E5%8F%B2%E4%B8%8A%E7%9A%84%E8%B6%99%E9%9B%B2(%E8%87%AA%E4%B8%89%E5%9C%8B%E5%BF%97%E8%B6%99%E9%9B%B2%E5%82%B3%E8%88%87%E8%B6%99%E9%9B%B2'},
 
-    {id:4, 'zh-TW':'地瓜球', en:'Sweet potato balls', ja:'サツマイモボール',Tells:'地瓜球，又叫做QQ蛋，是台灣小吃的一種。',
+    {id:4, 'zh-TW':'地瓜球',
+     tags:'霄夜',
+     en:'Sweet potato balls', ja:'サツマイモボール',Tells:'地瓜球，又叫做QQ蛋，是台灣小吃的一種。',
      img:'http://2.bp.blogspot.com/-IdWVymg5eGk/UH5SSwGcX6I/AAAAAAAACa0/sYtEulJ9qVQ/s640/IMG_9771.JPG',imgSrc:'http://dreamyeh.pixnet.net/blog/post/24755460-%E8%AB%96%E7%9C%9F%E5%AF%A6%E6%AD%B7%E5%8F%B2%E4%B8%8A%E7%9A%84%E8%B6%99%E9%9B%B2(%E8%87%AA%E4%B8%89%E5%9C%8B%E5%BF%97%E8%B6%99%E9%9B%B2%E5%82%B3%E8%88%87%E8%B6%99%E9%9B%B2'},    
   
-    {id:5, 'zh-TW':'菜脯蛋', en:' chopped preserved daikon omelet ', ja:'大根エッグ',Tells:'菜脯蛋是一道家常菜，流行於台灣、福建、廣東潮汕地區，在蛋上面加上菜脯炒成，有時也會加入一些蔥。菜脯蛋的「脯」常俗寫為「餔」，其實「脯」字才是正寫，「脯」的本意是肉乾，「菜脯」就是醃製過的蘿蔔乾，而閩南語習慣稱蘿蔔為「菜頭」，因此把醃蘿蔔乾稱為「菜脯」。',
+    {id:5, 'zh-TW':'菜脯蛋',
+     tags:'正餐'
+
+     en:' chopped preserved daikon omelet ', ja:'大根エッグ',Tells:'菜脯蛋是一道家常菜，流行於台灣、福建、廣東潮汕地區，在蛋上面加上菜脯炒成，有時也會加入一些蔥。菜脯蛋的「脯」常俗寫為「餔」，其實「脯」字才是正寫，「脯」的本意是肉乾，「菜脯」就是醃製過的蘿蔔乾，而閩南語習慣稱蘿蔔為「菜頭」，因此把醃蘿蔔乾稱為「菜脯」。',
      img:'http://2.bp.blogspot.com/_m_9UOW4l9JQ/TEhXvg0N8dI/AAAAAAAAAnY/pANhyhgobfs/s1600/%C3%A4%C2%B8%C2%BB%C3%A5%C5%93%E2%80%93.jpg ', },    
      
       {id:6, 'zh-TW':'蔥油餅',
-       tags: '早餐',
+       tags: '早餐+宵夜',
        en:' chopped preserved daikon omelet',
        ja:'大根エッグ',
        Tells:'蔥油餅是一種由蔥花作成的煎餅，在華人社會街頭、夜市等地方可見，常作為小吃食用。',
@@ -72,13 +79,21 @@ function myCtrl($scope,$translate) {
        tags: '早餐+飲品',
        en:'Tofu Pudding ', ja:'豆花',Tells:'豆花，或稱豆腐腦，是由黃豆漿絮凝後形成的果凍狀食品，比豆腐嫩軟，是一種常見小吃。對它稱謂則各地略有不同，中國北方多稱豆腐腦，南方多稱豆花，但在部分地區也有其他稱謂。傳統的製作方法，豆花多使用石膏或滷水凝結，在口感上有明顯的粗澀的感覺。現在多使用新型絮凝劑，口感更細膩。',
      img:'http://0225506898.tw.tranews.com/Show/images/News/3268991_1.jpg', },      
-      {id:8, 'zh-TW':'愛玉', en:'Fig Jelly ', ja:'ゼリー',Tells:'愛玉子（學名：Ficus pumila var. awkeotsang）又稱為愛玉、玉枳、枳仔、草枳仔、澳澆、愛玉欉（以閩南語拉丁化，即為學名來源awkeotsang[1]），屬桑科榕屬植物，為台灣特有亞種，與薜荔（Ficus pu-mila L.）相同皆屬雌雄異株。',
+      {id:8, 'zh-TW':'愛玉',
+       tags:'飲品',
+       en:'Fig Jelly ', ja:'ゼリー',Tells:'愛玉子（學名：Ficus pumila var. awkeotsang）又稱為愛玉、玉枳、枳仔、草枳仔、澳澆、愛玉欉（以閩南語拉丁化，即為學名來源awkeotsang[1]），屬桑科榕屬植物，為台灣特有亞種，與薜荔（Ficus pu-mila L.）相同皆屬雌雄異株。',
      img:'http://ext.pimg.tw/jan098142/4a486632542e6.jpg', },   
-     {id:9, 'zh-TW':'臭豆腐', en:'Stinky Tofuy ', ja:'臭い豆腐',Tells:'臭豆腐是中國民間特色豆製品小吃之一，流傳於大中華圈及世界其他地方的豆腐發酵製品。在各地的製作方式、食用方法均有相當大的差異。臭豆腐分臭豆腐乾和臭豆腐乳兩種，都是相當流行的小吃。臭豆腐乳屬於豆腐乳的一種，曾作為御膳小菜送往宮廷，受到慈禧太后的喜愛，親賜名御青方[1]。臭豆腐在長沙、上海、北京、台灣是頗具代表性的小吃。',
+     {id:9, 'zh-TW':'臭豆腐', 
+     tags:'宵夜+正餐'
+     en:'Stinky Tofuy ', ja:'臭い豆腐',Tells:'臭豆腐是中國民間特色豆製品小吃之一，流傳於大中華圈及世界其他地方的豆腐發酵製品。在各地的製作方式、食用方法均有相當大的差異。臭豆腐分臭豆腐乾和臭豆腐乳兩種，都是相當流行的小吃。臭豆腐乳屬於豆腐乳的一種，曾作為御膳小菜送往宮廷，受到慈禧太后的喜愛，親賜名御青方[1]。臭豆腐在長沙、上海、北京、台灣是頗具代表性的小吃。',
      img:'http://upload.wikimedia.org/wikipedia/commons/c/cf/%E9%85%A5%E7%82%B8%E8%87%AD%E8%B1%86%E8%85%90.JPG', },     
-     {id:10, 'zh-TW':'珍珠奶茶', en:'Bubble Milk Tea', ja:'パールミルクティー',Tells:'珍珠奶茶（Pearl milk tea）簡稱珍奶，又稱粉圓奶茶（Tapioca (ball) tea）、「波霸奶茶」（B(P)oba milk tea），是一項於1980年代發明及廣傳於台灣的茶類飲料，為泡沫紅茶（Bubble tea）、珍珠茶飲文化中的一支，將「粉圓」（「珍珠」，Tapioca ball）加入香醇的奶茶中，也尚有「珍珠紅（綠）茶」、「珍珠奶綠（茶）」等變種，由於口感特殊，所以受到廣大的歡迎與回響，也成為台灣最具代表性的飲料與小吃之一，多年來，已經由台灣流行至東亞、歐洲、美國甚至中東國家等地方。',
+     {id:10, 'zh-TW':'珍珠奶茶',
+     tags:'飲品'
+      en:'Bubble Milk Tea', ja:'パールミルクティー',Tells:'珍珠奶茶（Pearl milk tea）簡稱珍奶，又稱粉圓奶茶（Tapioca (ball) tea）、「波霸奶茶」（B(P)oba milk tea），是一項於1980年代發明及廣傳於台灣的茶類飲料，為泡沫紅茶（Bubble tea）、珍珠茶飲文化中的一支，將「粉圓」（「珍珠」，Tapioca ball）加入香醇的奶茶中，也尚有「珍珠紅（綠）茶」、「珍珠奶綠（茶）」等變種，由於口感特殊，所以受到廣大的歡迎與回響，也成為台灣最具代表性的飲料與小吃之一，多年來，已經由台灣流行至東亞、歐洲、美國甚至中東國家等地方。',
      img:'http://upload.wikimedia.org/wikipedia/commons/4/44/Pearl_Milktea.jpg', }, 
-     {id:11, 'zh-TW':'豆漿', en:'Soy Milk', ja:'ミルク',Tells:'豆漿（亦稱豆奶，台語稱為豆奶 [tāu-ling/tāu-ni][1] ，日語稱豆乳／とうにゅう），是一種以黃豆（或黑豆）為原料製作的飲料。豆奶也可指豆漿加奶的飲品。',
+     {id:11, 'zh-TW':'豆漿',
+     tags:'飲品'
+      en:'Soy Milk', ja:'ミルク',Tells:'豆漿（亦稱豆奶，台語稱為豆奶 [tāu-ling/tāu-ni][1] ，日語稱豆乳／とうにゅう），是一種以黃豆（或黑豆）為原料製作的飲料。豆奶也可指豆漿加奶的飲品。',
      img:'http://upload.wikimedia.org/wikipedia/commons/f/f4/Soymilk_can_and_glass.jpg', },
      {id:12, 'zh-TW':'蛋餅', en: 'omelet', ja:'パンケーキ',Tells:'蛋餅是一種以蛋作食材的菜式，通常使用雞蛋，加入其他配料煎成扁平狀。',
      img:'http://link.photo.pchome.com.tw/s08/kid0406/432/134487149354/', },      {id:13, 'zh-TW':'甘蔗汁', en:'Sugar cane juice', ja:'サトウキビジュース',Tells:'甘蔗汁，簡稱蔗汁，是以甘蔗壓榨成汁的飲料，方便不想咀嚼硬甘蔗者直接喝汁食用，原汁原味，最能喝出甘甜滋味，且滋潤美容養顏。常見於台灣中南部甘蔗產區，是來台灣旅遊觀光客首選台灣冰品飲料。在香港一些果汁店也可以買到。除了鮮榨蔗汁外，還有商人推出瓶裝蔗汁，可以貯存較長時間。',
