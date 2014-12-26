@@ -64,7 +64,6 @@ function myCtrl($scope,$translate) {
   
     {id:5, 'zh-TW':'菜脯蛋',
      tags:'正餐'
-
      en:' chopped preserved daikon omelet ', ja:'大根エッグ',Tells:'菜脯蛋是一道家常菜，流行於台灣、福建、廣東潮汕地區，在蛋上面加上菜脯炒成，有時也會加入一些蔥。菜脯蛋的「脯」常俗寫為「餔」，其實「脯」字才是正寫，「脯」的本意是肉乾，「菜脯」就是醃製過的蘿蔔乾，而閩南語習慣稱蘿蔔為「菜頭」，因此把醃蘿蔔乾稱為「菜脯」。',
      img:'http://2.bp.blogspot.com/_m_9UOW4l9JQ/TEhXvg0N8dI/AAAAAAAAAnY/pANhyhgobfs/s1600/%C3%A4%C2%B8%C2%BB%C3%A5%C5%93%E2%80%93.jpg ', },    
      
