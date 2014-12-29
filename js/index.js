@@ -58,12 +58,12 @@ function myCtrl($scope,$translate) {
      img:'http://9.blog.xuite.net/9/1/c/f/14511915/blog_1223544/txt/26443502/21.jpg',imgSrc:'http://dreamyeh.pixnet.net/blog/post/24755460-%E8%AB%96%E7%9C%9F%E5%AF%A6%E6%AD%B7%E5%8F%B2%E4%B8%8A%E7%9A%84%E8%B6%99%E9%9B%B2(%E8%87%AA%E4%B8%89%E5%9C%8B%E5%BF%97%E8%B6%99%E9%9B%B2%E5%82%B3%E8%88%87%E8%B6%99%E9%9B%B2'},
 
     {id:4, 'zh-TW':'地瓜球',
-     tags:'霄夜',
+     tags:'宵夜',
      en:'Sweet potato balls', ja:'サツマイモボール',Tells:'地瓜球，又叫做QQ蛋，是台灣小吃的一種。',
      img:'http://2.bp.blogspot.com/-IdWVymg5eGk/UH5SSwGcX6I/AAAAAAAACa0/sYtEulJ9qVQ/s640/IMG_9771.JPG',imgSrc:'http://dreamyeh.pixnet.net/blog/post/24755460-%E8%AB%96%E7%9C%9F%E5%AF%A6%E6%AD%B7%E5%8F%B2%E4%B8%8A%E7%9A%84%E8%B6%99%E9%9B%B2(%E8%87%AA%E4%B8%89%E5%9C%8B%E5%BF%97%E8%B6%99%E9%9B%B2%E5%82%B3%E8%88%87%E8%B6%99%E9%9B%B2'},    
   
     {id:5, 'zh-TW':'菜脯蛋',
-     tags:'正餐'
+     tags:'正餐',
      en:' chopped preserved daikon omelet ', ja:'大根エッグ',Tells:'菜脯蛋是一道家常菜，流行於台灣、福建、廣東潮汕地區，在蛋上面加上菜脯炒成，有時也會加入一些蔥。菜脯蛋的「脯」常俗寫為「餔」，其實「脯」字才是正寫，「脯」的本意是肉乾，「菜脯」就是醃製過的蘿蔔乾，而閩南語習慣稱蘿蔔為「菜頭」，因此把醃蘿蔔乾稱為「菜脯」。',
      img:'http://2.bp.blogspot.com/_m_9UOW4l9JQ/TEhXvg0N8dI/AAAAAAAAAnY/pANhyhgobfs/s1600/%C3%A4%C2%B8%C2%BB%C3%A5%C5%93%E2%80%93.jpg ', },    
      
@@ -83,15 +83,15 @@ function myCtrl($scope,$translate) {
        en:'Fig Jelly ', ja:'ゼリー',Tells:'愛玉子（學名：Ficus pumila var. awkeotsang）又稱為愛玉、玉枳、枳仔、草枳仔、澳澆、愛玉欉（以閩南語拉丁化，即為學名來源awkeotsang[1]），屬桑科榕屬植物，為台灣特有亞種，與薜荔（Ficus pu-mila L.）相同皆屬雌雄異株。',
      img:'http://ext.pimg.tw/jan098142/4a486632542e6.jpg', },   
      {id:9, 'zh-TW':'臭豆腐', 
-     tags:'宵夜+正餐'
+     tags:'宵夜+正餐',
      en:'Stinky Tofuy ', ja:'臭い豆腐',Tells:'臭豆腐是中國民間特色豆製品小吃之一，流傳於大中華圈及世界其他地方的豆腐發酵製品。在各地的製作方式、食用方法均有相當大的差異。臭豆腐分臭豆腐乾和臭豆腐乳兩種，都是相當流行的小吃。臭豆腐乳屬於豆腐乳的一種，曾作為御膳小菜送往宮廷，受到慈禧太后的喜愛，親賜名御青方[1]。臭豆腐在長沙、上海、北京、台灣是頗具代表性的小吃。',
      img:'http://upload.wikimedia.org/wikipedia/commons/c/cf/%E9%85%A5%E7%82%B8%E8%87%AD%E8%B1%86%E8%85%90.JPG', },     
      {id:10, 'zh-TW':'珍珠奶茶',
-     tags:'飲品'
+     tags:'飲品',
       en:'Bubble Milk Tea', ja:'パールミルクティー',Tells:'珍珠奶茶（Pearl milk tea）簡稱珍奶，又稱粉圓奶茶（Tapioca (ball) tea）、「波霸奶茶」（B(P)oba milk tea），是一項於1980年代發明及廣傳於台灣的茶類飲料，為泡沫紅茶（Bubble tea）、珍珠茶飲文化中的一支，將「粉圓」（「珍珠」，Tapioca ball）加入香醇的奶茶中，也尚有「珍珠紅（綠）茶」、「珍珠奶綠（茶）」等變種，由於口感特殊，所以受到廣大的歡迎與回響，也成為台灣最具代表性的飲料與小吃之一，多年來，已經由台灣流行至東亞、歐洲、美國甚至中東國家等地方。',
      img:'http://upload.wikimedia.org/wikipedia/commons/4/44/Pearl_Milktea.jpg', }, 
      {id:11, 'zh-TW':'豆漿',
-     tags:'飲品'
+     tags:'飲品',
       en:'Soy Milk', ja:'ミルク',Tells:'豆漿（亦稱豆奶，台語稱為豆奶 [tāu-ling/tāu-ni][1] ，日語稱豆乳／とうにゅう），是一種以黃豆（或黑豆）為原料製作的飲料。豆奶也可指豆漿加奶的飲品。',
      img:'http://upload.wikimedia.org/wikipedia/commons/f/f4/Soymilk_can_and_glass.jpg', },
      {id:12, 'zh-TW':'蛋餅', en: 'omelet', ja:'パンケーキ',Tells:'蛋餅是一種以蛋作食材的菜式，通常使用雞蛋，加入其他配料煎成扁平狀。',
