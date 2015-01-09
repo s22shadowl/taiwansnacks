@@ -122,9 +122,9 @@ function myCtrl($scope,$translate) {
      img:'http://a1.att.hudong.com/66/92/19300001309012131181928896744.jpg', }, 
  {id:25, 'zh-TW':'雞捲',tags:'正餐+宵夜', en:'Chicken rolls', ja:'チキンロール',Tells:'雞卷即多卷，原名為石碼卷，又名"燒肝"。本為中國閩南福建石碼一帶名產，後來傳至台灣後，已成為台灣著名小吃。北部地區，甚至常為祭祀時的常見主要供品。',
      img:'http://1.bp.blogspot.com/-fDJ8Q5T2Tdw/Usuic28M-1I/AAAAAAAABPs/GAEdgyS0g5Q/s1600/%E9%9B%9E%E6%8D%B2.JPG', },
- {id:26, 'zh-TW':'雞捲', en:'Chicken rolls', ja:'チキンロール',Tells:'雞卷即多卷，原名為石碼卷，又名"燒肝"。本為中國閩南福建石碼一帶名產，後來傳至台灣後，已成為台灣著名小吃。北部地區，甚至常為祭祀時的常見主要供品。',
-     img:'http://1.bp.blogspot.com/-fDJ8Q5T2Tdw/Usuic28M-1I/AAAAAAAABPs/GAEdgyS0g5Q/s1600/%E9%9B%9E%E6%8D%B2.JPG', },
- {id:27, 'zh-TW':'雞捲', en:'Chicken rolls', ja:'チキンロール',Tells:'雞卷即多卷，原名為石碼卷，又名"燒肝"。本為中國閩南福建石碼一帶名產，後來傳至台灣後，已成為台灣著名小吃。北部地區，甚至常為祭祀時的常見主要供品。',
+ {id:26, 'zh-TW':'碗糕',tags:'早餐+正餐+宵夜', en:'Salty rice pudding', ja:'塩辛いライスプディング',Tells:'碗粿，又稱碗糕，有時被誤寫為「碗稞」，是流行於華南、粵東、臺灣等地的米食製品。因成品置於碗內，故名；分甜、鹹二類：甜碗粿是米漿經糊化後拌入糖蒸熟而成；鹹碗粿則是將糊化的米漿蒸過一次，將配料鋪於其上再蒸熟而得，並搭配醬油膏或甜辣醬食用。例如臺灣臺南市麻豆區所製作的麻豆碗粿，於國道高速公路麻豆交流道附近等販賣，因料好實在，遠近馳名。',
+     img:'http://upload.wikimedia.org/wikipedia/commons/6/6f/Bowl_Rice_Cake.jpg', },
+ {id:27, 'zh-TW':'筒仔米糕',tags:'正餐+宵夜', en:'Rice tube pudding', ja:'アバディーンチューブ餅',Tells:'筒仔米糕是一樣常見於台灣各地的糯米類小吃，與油飯、米糕類似，但卻是在瓷瓶、竹筒或鐵罐中炊煮而成，口味濃郁。有些店家會再淋上肉燥和加上香菜。',
      img:'http://1.bp.blogspot.com/-fDJ8Q5T2Tdw/Usuic28M-1I/AAAAAAAABPs/GAEdgyS0g5Q/s1600/%E9%9B%9E%E6%8D%B2.JPG', },          
   
   ];     
